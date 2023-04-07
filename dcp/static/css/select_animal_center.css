@@ -1,0 +1,29 @@
+.body {
+    width: auto;
+    height: auto;
+}
+
+.content {
+    margin-top: 70px;
+}
+
+.index_logo {
+    width: 40%; 
+    height: auto;
+    display:block;
+    margin:auto;
+    border-radius: 30% 70% 100% 0% / 30% 8% 92% 70%;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+}
+
+#btn_dog {
+    width: 40%;
+    height: auto;
+    display:block;
+    margin:auto;
+    
+}
