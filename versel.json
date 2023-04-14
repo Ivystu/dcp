@@ -1,13 +1,13 @@
 {
     "builds": [{
-        "src": "dcp/wsgi.py",
+        "src": "dcp/core/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.11" }
     }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "dcp/wsgi.py"
+            "dest": "dcp/core/wsgi.py"
         }
     ]
 }
